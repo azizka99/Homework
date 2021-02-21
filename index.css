@@ -1,0 +1,37 @@
+.box {
+  padding: 20px;
+  background-color: teal;
+  width: 100px;
+  height: 100px;
+  color: black;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.kerem {
+  width: 150px;
+  height: 150px;
+  background-image: url(https://specials-images.forbesimg.com/imageserve/5fad975faa9c4c321e144b8d/960x0.jpg);
+  border-radius: 10px;
+  float: left;
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+}
+
+.kerem.red {
+  /* background-color: rgb(255, 0, 0); */
+  opacity: 0.1;
+}
+.kerem.green {
+  /* background-color: rgb(0, 255, 0); */
+  opacity: 0.5;
+}
+.kerem.green:hover {
+  opacity: 1;
+}
+.kerem.blue {
+  /* background-color: rgb(0, 0, 255); */
+  opacity: 1;
+}

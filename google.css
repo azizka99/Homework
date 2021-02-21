@@ -1,0 +1,17 @@
+.google {
+  background-color: #008789;
+  width: 200px;
+  height: 100px;
+  box-sizing: border-box;
+  padding: 30px 55px;
+  font-size: 30px;
+  border-right: 5px solid #7f5745;
+  border-left: 5px solid #7f5745;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.google p {
+  margin: 0;
+  font-family: "Truculenta", sans-serif;
+}
